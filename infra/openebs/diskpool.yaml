@@ -19,8 +19,8 @@ spec:
 apiVersion: "openebs.io/v1beta2"
 kind: DiskPool
 metadata:
-  name: pool-on-dev-02
+  name: pool-on-dev-03
   namespace: openebs
 spec:
-  node: dev-02
+  node: dev-03
   disks: ["uring:///dev/vdb"]
