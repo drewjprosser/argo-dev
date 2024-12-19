@@ -6,8 +6,8 @@ spec:
   nodes: 3
   redisEnterpriseNodeResources:
     limits:
-      cpu: 600m
+      cpu: 300m
       memory: 1Gi
     requests:
-      cpu: 600m
+      cpu: 300m
       memory: 1Gi
