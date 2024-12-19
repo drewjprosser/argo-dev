@@ -13,9 +13,9 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   sources:
-  - path: infra/cloudnativepg 
-    repoURL: https://github.com/drewjprosser/argo-dev.git
-    targetRevision: HEAD
+  # - path: infra/cloudnativepg 
+  #   repoURL: https://github.com/drewjprosser/argo-dev.git
+  #   targetRevision: HEAD
   - repoURL: https://cloudnative-pg.github.io/charts
     targetRevision: 0.22.1
     chart: cloudnative-pg
